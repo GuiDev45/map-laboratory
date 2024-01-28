@@ -1,0 +1,22 @@
+:root {
+  /* Cores principais */
+  --cor-p1: #0D0E10;
+  --cor-p2: #202428;
+  --cor-p3: #79727B;
+  --cor-p4: #959B96;
+  --cor-p5: #1E2F2F;
+  --cor-p6: #04E4A4;
+
+  /* Outras propriedades globais, se necessário */
+  --tamanho-fonte-base: 16px;
+}
+
+:export {
+  corP1: var(--cor-p1);
+  corP2: var(--cor-p2);
+  corP3: var(--cor-p3);
+  corP4: var(--cor-p4);
+  corP5: var(--cor-p5);
+  corP6: var(--cor-p6);
+  tamanhoFonteBase: var(--tamanho-fonte-base);
+}

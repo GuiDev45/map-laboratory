@@ -1,0 +1,16 @@
+@import '@src/variables.css';
+
+.homeContainer {
+  display: flex;
+  height: 100vh; /* Ajuste conforme necessário para a altura desejada */
+}
+
+.sidebar {
+  width: 250px;
+  background-color: var(--cor-p2);
+  color: var(--cor-p6);
+}
+
+.mapContainer {
+  flex: 1;
+}
